@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600&family=Oswald:wght@300&family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+.section-bg {
+    background-color: #F9F5F6;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tajheading {
+    color: #374259;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 18px;
+}
+
+.form-cont {
+    color: #27374D;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+input {
+    width: 33px;
+    border-radius: 3px;
+    border: none;
+    background-color: #C4DFDF;
+}
+
+.btn {
+    background-color: #025464;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    color: #C4DFDF;
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1B9C85;
+    padding: 6px;
+}
+
+.result {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #025464;
+}
